@@ -6,8 +6,8 @@ import TarantoolConnection from 'tarantool-driver';
 let conn = new TarantoolConnection({
   host: 'localhost',
   port: 3333,
-  username: 'benz',
-  password: '123456',
+  username: 'user01',
+  password: 'user0123',
   beforeReserve: 1,
 });
 
